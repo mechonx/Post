@@ -1,0 +1,136 @@
+body {
+    
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.flex-container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    align-content: space-between;
+
+}
+
+.flex-container>.post {
+
+    background-color: white;
+    color:black;
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+
+}
+
+
+/*************/
+/* Titulo y logo
+/*************/
+
+
+
+.flex-header {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    /*background: red;*/
+}
+
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+
+/*************/
+/* Imagen
+/*************/
+
+.imagen{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    background-color: black;
+}
+
+/*************/
+/* interaccion
+/*************/
+
+
+.flex-interaccion {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.logo3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+.logo4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    width: 100px;
+    height: 50px;
+
+}
+
+
+/*************/
+/* footer
+/*************/
+
+.footer {
+
+
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 300px;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+]}
